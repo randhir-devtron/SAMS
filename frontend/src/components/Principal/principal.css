@@ -1,0 +1,23 @@
+.principal-modal form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.classHide {
+  display: none;
+}
+
+.qualificationHide {
+  display: none;
+}
+.home-header {
+  align-items: center;
+}
+
+.home-header label {
+  margin: 5px;
+}

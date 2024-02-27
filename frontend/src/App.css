@@ -1,0 +1,283 @@
+#root {
+  /* margin: 0 auto; */
+  /* text-align: center; */
+  /* width: 100vw; */
+  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+/* Login-Page  */
+.login-page1 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.Login-Page {
+  height: 80%;
+  width: 80%;
+  border-style: solid;
+  /* border: 144px red; */
+  display: flex;
+  /* flex-direction: column;
+  margin: auto; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Login {
+  height: 100%;
+  width: 50%;
+  /* float: left; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login-Right {
+  height: auto;
+  /* margin: auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column; */
+  font-weight: bold;
+}
+.Login-Left {
+  height: auto;
+  font-weight: bold;
+}
+
+.Login-Text {
+  height: auto;
+}
+
+.Login-Form input {
+  margin: 10px;
+}
+
+.home1 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background: #5b79cf;
+}
+.Home {
+  /* text-align: center; */
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  padding: 10px;
+  width: 100%;
+}
+
+.search {
+  padding: 10px;
+  font-size: 20px;
+  /* margin: 0 auto; */
+  border: 2px solid #0c3c33;
+  border-radius: 8px;
+  background: #bcd1d1;
+}
+
+.home-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.table {
+  margin-top: 35px;
+  /* padding: 35px; */
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  /* font-size: 0.8rem;
+  width: 50%; */
+}
+.listItem {
+  margin: 10px;
+  padding: 10px;
+}
+.td,
+th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px 20px;
+}
+td {
+  text-align: center;
+}
+
+caption {
+  padding: 10px;
+}
+
+/* Modal Styling  */
+.modal-button {
+  margin-left: 30px;
+  background-color: #3b4aaf;
+}
+.principal-modal {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.principal-modal h2 {
+  margin-top: 0;
+}
+
+.principal-modal label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.principal-modal input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure that padding and border don't add to the width */
+}
+
+.principal-modal input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.principal-modal input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* The Close Button */
+.close {
+  color: #020fb1;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Punching in Student  */
+.Punching {
+  display: flex;
+}
+
+.student-navbar {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding-top: 20px;
+}
+.student-navbar-img {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  min-width: 120px;
+  min-height: 120px;
+  align-items: center;
+}
+
+.student-navbar-button {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.student-navbar-button button {
+  padding: 20px;
+  font-weight: bold;
+  background-color: #1c55bd;
+  color: azure;
+  margin-left: 22px;
+}
+.student-navbar > * {
+  padding-left: 30px;
+}
+.student-navbar-information {
+  width: 40%;
+}
+.randhir-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.student-home {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.student-home-select {
+  width: 10%;
+  padding-left: 5px;
+  /* position: fixed; */
+  z-index: 1;
+}
+
+.calendar-student {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
